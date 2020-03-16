@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/layout_activity_test_scan.xml.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/layout/activity_test_scan.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/drawable_selector_btn_orange.xml.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/drawable/selector_btn_orange.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/mipmap-xxhdpi_logo.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/mipmap-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/mipmap-xxhdpi_custom_grid_scan_line.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/mipmap-xxhdpi/custom_grid_scan_line.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/mipmap-xxhdpi_holder.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/mipmap-xxhdpi/holder.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/layout_view_control.xml.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/layout/view_control.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/drawable-xxhdpi_scan_icon_scanline.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/drawable-xxhdpi/scan_icon_scanline.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/layout_activity_test_generate.xml.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/layout/activity_test_generate.xml"
+    },
+    {
+        "merged": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/res/merged/debug/mipmap-xxhdpi_custom_scan_line.png.flat",
+        "source": "/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/res/mipmap-xxhdpi/custom_scan_line.png"
+    }
+]

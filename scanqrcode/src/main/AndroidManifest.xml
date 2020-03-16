@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taopao.scanqrcode">
+
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- /地图包、搜索包需要的基础权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity
+            android:name=".activity.ScanQRCodeActivity"
+            android:theme="@style/ScanQRCodeTheme"></activity>
+    </application>
+</manifest>

@@ -1,0 +1,311 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.databinding:adapters:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6034ec5673d9b4c29c7465f376564893/adapters-3.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e3d92a1851081760e2f21a7eec288324/library-3.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c0297c05812c4f65312d304e65a3a144/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/28f7f2c06e6d4e1d234a983d4d1ff39a/recyclerview-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:2:1-19:12
+MERGED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:2:1-50:12
+MERGED from [cn.bingoogolapple:bga-baseadapter:1.2.9] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b38ee4178d5f2b00e5f133c94fa3d84/bga-baseadapter-1.2.9/AndroidManifest.xml:2:1-10:12
+MERGED from [cn.bingoogolapple:bga-flowlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6ce98e8c6d38206276e88fe154823705/bga-flowlayout-1.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/bf669ed90ebe928e1e4fe0d9813e4529/glide-4.7.1/AndroidManifest.xml:2:1-13:12
+MERGED from [:zxing] /Users/apple/AndroidStudioProjects/ScanQRCode/zxing/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.databinding:viewbinding:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8bbf6249b1eac91baf87feeacc964045/viewbinding-3.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/93996a009dd58fd05ed812245db0148c/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1c6ccda4efce2e74613d682566b9d8fb/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/e225bda01291be17fdad22f6cb953069/gifdecoder-4.7.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:4:5-49
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:11:5-111
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:11:5-111
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:11:5-111
+MERGED from [com.android.databinding:adapters:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6034ec5673d9b4c29c7465f376564893/adapters-3.6.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6034ec5673d9b4c29c7465f376564893/adapters-3.6.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e3d92a1851081760e2f21a7eec288324/library-3.6.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/e3d92a1851081760e2f21a7eec288324/library-3.6.0/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c0297c05812c4f65312d304e65a3a144/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c0297c05812c4f65312d304e65a3a144/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/28f7f2c06e6d4e1d234a983d4d1ff39a/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/28f7f2c06e6d4e1d234a983d4d1ff39a/recyclerview-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:5:5-7:41
+MERGED from [cn.bingoogolapple:bga-baseadapter:1.2.9] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b38ee4178d5f2b00e5f133c94fa3d84/bga-baseadapter-1.2.9/AndroidManifest.xml:6:5-8:41
+MERGED from [cn.bingoogolapple:bga-baseadapter:1.2.9] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b38ee4178d5f2b00e5f133c94fa3d84/bga-baseadapter-1.2.9/AndroidManifest.xml:6:5-8:41
+MERGED from [cn.bingoogolapple:bga-flowlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6ce98e8c6d38206276e88fe154823705/bga-flowlayout-1.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [cn.bingoogolapple:bga-flowlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6ce98e8c6d38206276e88fe154823705/bga-flowlayout-1.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/bf669ed90ebe928e1e4fe0d9813e4529/glide-4.7.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/bf669ed90ebe928e1e4fe0d9813e4529/glide-4.7.1/AndroidManifest.xml:7:5-9:41
+MERGED from [:zxing] /Users/apple/AndroidStudioProjects/ScanQRCode/zxing/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:zxing] /Users/apple/AndroidStudioProjects/ScanQRCode/zxing/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.databinding:viewbinding:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8bbf6249b1eac91baf87feeacc964045/viewbinding-3.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:viewbinding:3.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8bbf6249b1eac91baf87feeacc964045/viewbinding-3.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/93996a009dd58fd05ed812245db0148c/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/93996a009dd58fd05ed812245db0148c/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1c6ccda4efce2e74613d682566b9d8fb/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1c6ccda4efce2e74613d682566b9d8fb/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/e225bda01291be17fdad22f6cb953069/gifdecoder-4.7.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/e225bda01291be17fdad22f6cb953069/gifdecoder-4.7.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:documentfile:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:11:5-111
+INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:11:5-111
+	tools:overrideLibrary
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:11:15-108
+	android:targetSdkVersion
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:11:5-111
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:11:5-111
+		INJECTED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:13:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:14:5-80
+MERGED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:9:5-80
+MERGED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:14:22-77
+application
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:16:5-37:19
+MERGED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:11:5-17:19
+MERGED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:13:5-48:19
+MERGED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:13:5-48:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/bf669ed90ebe928e1e4fe0d9813e4529/glide-4.7.1/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/bf669ed90ebe928e1e4fe0d9813e4529/glide-4.7.1/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/e225bda01291be17fdad22f6cb953069/gifdecoder-4.7.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/e225bda01291be17fdad22f6cb953069/gifdecoder-4.7.1/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:20:9-40
+activity#cn.bingoogolapple.qrcode.zxingdemo.MainActivity
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:21:9-30:20
+	android:screenOrientation
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:22:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:28:27-74
+activity#cn.bingoogolapple.qrcode.zxingdemo.TestScanActivity
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:32:9-54
+	android:name
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:32:19-51
+activity#cn.bingoogolapple.qrcode.zxingdemo.TestGeneratectivity
+ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from /Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/src/main/AndroidManifest.xml:35:13-48
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:1.0.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/374d52d932c2d751b5477f0205de2603/easypermissions-1.0.1/AndroidManifest.xml:13:13-86
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.CAMERA
+ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:11:5-65
+MERGED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+MERGED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:11:22-62
+activity#cn.bingoogolapple.photopicker.activity.BGAPhotoPreviewActivity
+ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:16:9-21:63
+	android:screenOrientation
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:19:13-49
+	android:windowSoftInputMode
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:21:13-60
+	android:configChanges
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:18:13-74
+	android:theme
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:20:13-46
+	android:name
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:17:13-90
+activity#cn.bingoogolapple.photopicker.activity.BGAPhotoPickerActivity
+ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:24:9-29:63
+	android:screenOrientation
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:27:13-49
+	android:windowSoftInputMode
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:29:13-60
+	android:configChanges
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:26:13-74
+	android:theme
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:28:13-46
+	android:name
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:25:13-89
+activity#cn.bingoogolapple.photopicker.activity.BGAPhotoPickerPreviewActivity
+ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:32:9-37:63
+	android:screenOrientation
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:35:13-49
+	android:windowSoftInputMode
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:37:13-60
+	android:configChanges
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:34:13-74
+	android:theme
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:36:13-46
+	android:name
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:33:13-96
+provider#cn.bingoogolapple.photopicker.util.BGAPhotoFileProvider
+ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:39:9-47:20
+	android:grantUriPermissions
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:43:13-47
+	android:authorities
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:41:13-82
+	android:exported
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:40:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:44:13-46:71
+	android:resource
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:46:17-68
+	android:name
+		ADDED from [cn.bingoogolapple:bga-photopicker:1.2.8] /Users/apple/.gradle/caches/transforms-2/files-2.1/b5d517dae0d17dadbbc9d63d6bfc7ebb/bga-photopicker-1.2.8/AndroidManifest.xml:45:17-67
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-69
+	android:name
+		ADDED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-66
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [:qrcodecore] /Users/apple/AndroidStudioProjects/ScanQRCode/qrcodecore/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-53

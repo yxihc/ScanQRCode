@@ -1,0 +1,4 @@
+#Mon Mar 16 19:38:14 CST 2020
+base.0=/Users/apple/AndroidStudioProjects/ScanQRCode/zxingdemo/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
