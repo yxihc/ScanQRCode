@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".activity.ScanQRCodeActivity">
@@ -41,4 +40,14 @@
         app:qrcv_toolbarHeight="56dp"
         app:qrcv_topOffset="65dp"
         app:qrcv_verticalBias="-1" />
-</LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icon_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+</RelativeLayout>

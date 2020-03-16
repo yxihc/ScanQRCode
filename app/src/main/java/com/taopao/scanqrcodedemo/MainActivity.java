@@ -24,10 +24,12 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         ScanQRCodeUtils.onResultQRCode(requestCode, resultCode, data, new ScanQRCodeUtils.CallBack() {
             @Override
-            public void onResult(final String result) {
-                Log.e("===", "onResult: "+result);
-                Toast.makeText(MainActivity.this,"扫码结果："+result,Toast.LENGTH_LONG).show();
-
+            public void onResult(boolean isSuccess, String result) {
+                if (isSuccess){
+                    Toast.makeText(MainActivity.this,"扫码结果："+result,Toast.LENGTH_LONG).show();
+                }else{
+                    Toast.makeText(MainActivity.this,"扫描失败",Toast.LENGTH_LONG).show();
+                }
             }
         });
     }

@@ -32,11 +32,11 @@ public class ScanQRCodeUtils {
                     return;
                 }
                 String result = bundle.getString(RESULT_STRING);
-                callBack.onResult(result);
+                callBack.onResult(result==null?false:true,result);
             }
         }
     }
     public interface CallBack{
-        void onResult(String result);
+        void onResult(boolean isSuccess,String result);
     }
 }

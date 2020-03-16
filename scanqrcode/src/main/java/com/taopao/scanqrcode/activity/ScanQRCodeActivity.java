@@ -7,9 +7,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
 
+import com.luck.picture.lib.PictureSelector;
+import com.luck.picture.lib.config.PictureConfig;
+import com.luck.picture.lib.config.PictureMimeType;
+import com.luck.picture.lib.entity.LocalMedia;
 import com.taopao.scanqrcode.R;
 import com.taopao.scanqrcode.ScanQRCodeUtils;
+
+import java.util.List;
 
 import cn.bingoogolapple.qrcode.core.BarcodeType;
 import cn.bingoogolapple.qrcode.core.QRCodeView;
@@ -26,14 +33,33 @@ public class ScanQRCodeActivity extends AppCompatActivity implements QRCodeView.
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan_qrcode);
-        mZXingView = findViewById(R.id.zxingview);
 
+        initView();
         mScanType = getIntent().getExtras().getInt("scanType");
         if ( getIntent().hasExtra("tips")){
             mTips = getIntent().getStringExtra("tips");
         }
 
         mZXingView.setDelegate(this);
+    }
+
+    private void initView() {
+        mZXingView = findViewById(R.id.zxingview);
+        findViewById(R.id.iv_img).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PictureSelector.create(ScanQRCodeActivity.this)
+                        .openGallery(PictureMimeType.ofImage())///全部.PictureMimeType.ofAll()、图片.ofImage()、视频.ofVideo()、音频.ofAudio()
+                        .maxSelectNum(1)// 最大图片选择数量 int
+                        .minSelectNum(1)// 最小选择数量 int
+                        .imageSpanCount(3)// 每行显示个数 int
+                        .selectionMode(PictureConfig.SINGLE)// 多选 or 单选
+                        .previewImage(true)// 是否可预览图片 true or false
+                        .isCamera(false)// 是否显示拍照按钮 true or false
+                        .glideOverride(160, 160)// glide 加载宽高，越小图片列表越流畅，但会影响列表图片浏览的清晰度
+                        .forResult(PictureConfig.CHOOSE_REQUEST);//结果回调onActivityResult code
+            }
+        });
     }
 
     ////////////////////声明周期//////////////////////////////
@@ -128,29 +154,14 @@ public class ScanQRCodeActivity extends AppCompatActivity implements QRCodeView.
 //            final String picturePath = BGAPhotoPickerActivity.getSelectedPhotos(data).get(0);
             // 本来就用到 QRCodeView 时可直接调 QRCodeView 的方法，走通用的回调
 //            mZXingView.decodeQRCode(picturePath);
+        }
 
-            /*
-            没有用到 QRCodeView 时可以调用 QRCodeDecoder 的 syncDecodeQRCode 方法
-
-            这里为了偷懒，就没有处理匿名 AsyncTask 内部类导致 Activity 泄漏的问题
-            请开发在使用时自行处理匿名内部类导致Activity内存泄漏的问题，处理方式可参考 https://github
-            .com/GeniusVJR/LearningNotes/blob/master/Part1/Android/Android%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E6%80%BB%E7%BB%93.md
-             */
-//            new AsyncTask<Void, Void, String>() {
-//                @Override
-//                protected String doInBackground(Void... params) {
-//                    return QRCodeDecoder.syncDecodeQRCode(picturePath);
-//                }
-//
-//                @Override
-//                protected void onPostExecute(String result) {
-//                    if (TextUtils.isEmpty(result)) {
-//                        Toast.makeText(TestScanActivity.this, "未发现二维码", Toast.LENGTH_SHORT).show();
-//                    } else {
-//                        Toast.makeText(TestScanActivity.this, result, Toast.LENGTH_SHORT).show();
-//                    }
-//                }
-//            }.execute();
+        if (resultCode == RESULT_OK) {
+            List<LocalMedia> localMedias = PictureSelector.obtainMultipleResult(data);
+            if (localMedias.size()>0){
+                LocalMedia localMedia = localMedias.get(0);
+                mZXingView.decodeQRCode(localMedia.getPath());
+            }
         }
     }
 
