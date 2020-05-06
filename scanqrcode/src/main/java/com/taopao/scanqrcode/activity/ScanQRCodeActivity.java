@@ -3,9 +3,9 @@ package com.taopao.scanqrcode.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Vibrator;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 
@@ -13,6 +13,8 @@ import com.luck.picture.lib.PictureSelector;
 import com.luck.picture.lib.config.PictureConfig;
 import com.luck.picture.lib.config.PictureMimeType;
 import com.luck.picture.lib.entity.LocalMedia;
+import com.luck.picture.lib.style.PictureWindowAnimationStyle;
+import com.taopao.scanqrcode.GlideEngine;
 import com.taopao.scanqrcode.R;
 import com.taopao.scanqrcode.ScanQRCodeUtils;
 
@@ -29,6 +31,7 @@ public class ScanQRCodeActivity extends AppCompatActivity implements QRCodeView.
     private ZXingView mZXingView;
     private int mScanType;
     private String mTips="将二维码/条码放入框内，即可自动扫描";
+    private PictureWindowAnimationStyle mWindowAnimationStyle;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +44,9 @@ public class ScanQRCodeActivity extends AppCompatActivity implements QRCodeView.
         }
 
         mZXingView.setDelegate(this);
+
+        mWindowAnimationStyle = new PictureWindowAnimationStyle();
+        mWindowAnimationStyle.ofAllAnimation(R.anim.picture_anim_up_in, R.anim.picture_anim_down_out);
     }
 
     private void initView() {
@@ -49,14 +55,17 @@ public class ScanQRCodeActivity extends AppCompatActivity implements QRCodeView.
             @Override
             public void onClick(View v) {
                 PictureSelector.create(ScanQRCodeActivity.this)
-                        .openGallery(PictureMimeType.ofImage())///全部.PictureMimeType.ofAll()、图片.ofImage()、视频.ofVideo()、音频.ofAudio()
+                          .openGallery(PictureMimeType.ofImage())///全部.PictureMimeType.ofAll()、图片.ofImage()、视频.ofVideo()、音频.ofAudio()
+                        .loadImageEngine(GlideEngine.createGlideEngine())// 外部传入图片加载引擎，必传项
+                        .setPictureWindowAnimationStyle(mWindowAnimationStyle)// 自定义相册启动退出动画
+                        .isWeChatStyle(true)// 是否开启微信图片选择风格
+                        .isUseCustomCamera(false)// 是否使用自定义相机
+                        .isCamera(true)// 是否显示拍照按钮
                         .maxSelectNum(1)// 最大图片选择数量 int
                         .minSelectNum(1)// 最小选择数量 int
                         .imageSpanCount(3)// 每行显示个数 int
                         .selectionMode(PictureConfig.SINGLE)// 多选 or 单选
                         .previewImage(true)// 是否可预览图片 true or false
-                        .isCamera(false)// 是否显示拍照按钮 true or false
-                        .glideOverride(160, 160)// glide 加载宽高，越小图片列表越流畅，但会影响列表图片浏览的清晰度
                         .forResult(PictureConfig.CHOOSE_REQUEST);//结果回调onActivityResult code
             }
         });
